@@ -1,0 +1,119 @@
+/* Estilos para las tablas en la sección de logs */
+#logsTable {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#logsTable th, #logsTable td {
+    padding: 8px 12px;
+    border: 1px solid #007bff; /* Borde azul */
+    text-align: center;
+}
+
+#logsTable th {
+    background-color: #007bff; /* Fondo azul en encabezados */
+    color: white; /* Texto blanco */
+}
+
+#logsTable tbody tr:hover {
+    background-color: #007bff; /* Resaltar fila al pasar el mouse */
+    color: white;
+}
+
+/* Paginación de logs */
+.pagination {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.pagination .page-item .page-link {
+    background-color: #007bff; /* Azul */
+    color: white;
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: #0056b3;
+}
+/* Fondo azul para el título y fecha de hoy */
+header {
+    background-color: #007bff; /* Fondo azul */
+    color: #fff; /* Texto blanco */
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Botón "Filtrar por búsqueda" azul */
+.btn-success {
+    background-color: #007bff; /* Azul */
+    border-color: #007bff;
+}
+
+.btn-success:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Estilo para la tabla de estudiantes */
+.table-responsive {
+    border: 1px solid #007bff; /* Borde azul */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #007bff; /* Borde azul */
+}
+
+.table-light {
+    background-color: #f8f9fa; /* Fondo claro para encabezado de tabla */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #007bff; /* Fila resaltar color azul */
+    color: white; /* Texto blanco en la fila resaltada */
+}
+
+.pagination .page-item .page-link {
+    background-color: #007bff; /* Azul */
+    color: white;
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: #0056b3;
+}
+
+/* Fondo de los objetivos */
+#acerca {
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+/* Ajustes de fotos de los integrantes */
+.row.text-center {
+    text-align: center;
+}
+
+.row.text-center .col-md-4 {
+    margin-bottom: 20px;
+}
+
+.row.text-center img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card-body p strong {
+    color: black !important;
+}
